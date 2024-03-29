@@ -15,12 +15,11 @@ let main = body.querySelector('main');
 window.addEventListener('load', showMenuButton);
 window.addEventListener('resize', showMenuButton);
 menuButton.addEventListener('click', sidebarHideShow, menuButton);
-Array.from(sidebarItem).forEach(function (sidebarItem) { sidebarItem.addEventListener('click', sidebarBehavior, sidebarItem) });
-Array.from(tema).forEach(function (tema) { tema.addEventListener('click', cambiarTema, tema) });
+
 let sections = [];
-sections.push(document.getElementById("about"));
-sections.push(document.getElementById("a1"));
-sections.push(document.getElementById("a2"));
+sections.push(document.getElementById("index.html"));
+sections.push(document.getElementById("servicios.html"));
+sections.push(document.getElementById("semillero.html"));
 sections.push(document.getElementById("a3"));
 sections.push(document.getElementById("components"));
 sections.push(document.getElementById("downloads"));

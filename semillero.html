@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8" />
   <title>Casa Tlazala</title>
-  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+  
   <link rel="stylesheet" href="assets/css/variables.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -20,7 +20,7 @@
         <div class="logo">
           <img class="logo__img" src="assets/img/logo.png">
           <!-- Título del sitio -->
-          <a class="sidebar__titulo" href="#">
+          <a class="sidebar__titulo" href="index.html">
             <span class="sidebar__titulo sidebar__titulo-destacado">Casa
               <span class="sidebar__titulo sidebar__titulo-alternativo">Tlazala</span>
             </span>
@@ -28,34 +28,34 @@
         </div>
       </li>
       <li class="sidebar__item">
-        <a class="sidebar__link active" href="#about">
+        <a class="sidebar__link" href="index.html">
           <i class='bx bxs-directions sidebar__icon'></i>
           <span class="sidebar__text">Casa Tlazala</span>
         </a>
     
       </li>
       <li class="sidebar__item">
-        <a class="sidebar__link" href="#components">
+        <a class="sidebar__link" href="servicios.html">
        
           <span class="sidebar__text">Servicios</span>
           <ul class="sidebar__submenu">
             <li class="submenu__item">
-              <a class="submenu__link" href="semillero.html">
+              <a href="semillero.html" class="sidebar__link active" >
                 <span class="submenu__text">Semillero de Negocios</span>
               </a>
             </li>
             <li class="submenu__item">
-              <a class="submenu__link" href="#a2">
+              <a class="submenu__link" href="gestion-ambiental.html">
                 <span class="submenu__text">Gestión Ambiental</span>
               </a>
             </li>
             <li class="submenu__item">
-              <a class="submenu__link" href="#a3">
+              <a class="submenu__link" href="regeneracion-de-suelos.html">
                 <span class="submenu__text">Regeneración de suelos</span>
               </a>
             </li>
             <li class="submenu__item">
-              <a class="submenu__link" href="#a3">
+              <a class="submenu__link" href="recursos-educativos.html">
                 <span class="submenu__text">Recursos Educativos</span>
               </a>
             </li>
@@ -63,8 +63,6 @@
           
         </a>
       </li>
-    
-     
       <li class="sidebar__item">
         <a class="sidebar__link" href="#red_comercial">
        
@@ -94,7 +92,14 @@
         <i class='bx bx-menu bar__icono-left'></i>
       </a>
     </div>
-   
+    <!-- Contenido derecha -->
+    <div class="navbar__container navbar__container-right">
+      <ul class="navbar__ul">
+        <li class="navbar__li">
+          <a class="navbar__link">
+            <i id="theme-enabled" class='bx bx-brightness-half bar__icono'></i>
+            <span class="navbar__texto">Tema</span>
+          </a>
           <!-- Menú desplegable -->
           <div id="navbar__theme-switcher" class="navbar__desplegable navbar__desplegable-disabled">
             <a class="navbar__desplegable__link navbar__theme-enabled">
@@ -112,8 +117,8 @@
           </div>
         </li>
       </ul>
-      <!-- Botón probar -->
-      
+    
+  
     </div>
   </nav>
   <!-- Contenido de la página -->
@@ -298,7 +303,14 @@ La gestión del agua es otro aspecto crucial de nuestro compromiso con la sosten
           <img class="footer__image" src="assets/img/tsi_horizontal.png" />
         </a>
       </div>
-     
+      <!-- No quites esto  -->
+      <hr class="footer__line" />
+      <p class="info">Creada por Alberto Nieto Rocha, inspirada en <a
+          href="https://themes.3rdwavemedia.com/bootstrap-templates/product/coderdocs-free-bootstrap-5-documentation-template-for-software-projects/"
+          target="_blank">CoderDocs</a> y <a href="https://bootstrapmade.com/demo/iPortfolio/"
+          target="_blank">iPortfolio</a>.
+      </p>
+    </div>
   </footer>
   <!-- Scripts -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
