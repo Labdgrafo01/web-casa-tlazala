@@ -82,8 +82,9 @@ hr {
 .logo__img {
     fill: var(--color-tres);
     height: auto;
-    max-width: 150%;
+    max-width: 100%;
     vertical-align: middle;
+    
 }
 
 .sidebar__titulo {
